@@ -1,4 +1,4 @@
-# My-CoffeeCalc
+# My CoffeeCalc
 ## Brew better coffee
 
 ![My CoffeeCalc App Icon](assets/CoffeeCalcIcon.png)
