@@ -3,67 +3,91 @@
 <!-- App Icon -->
 <img src="assets/CoffeeCalcIcon-500x500.png" alt="My CoffeeCalc App Icon" width="120" height="120" />
 
-<!-- App Store Badge -->
-<a href="https://apps.apple.com/us/app/my-coffeecalc/id6747992533?itscg=30200&itsct=apps_box_badge&mttnsubad=6747992533" style="display: inline-block;">
-    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1753056000" alt="Download on the App Store" style="width: 145px; height: 48px; vertical-align: middle; object-fit: contain;" />
-</a>
-    
+---
 
-# iOS App Development Overview
+## Overview
+
+**My CoffeeCalc** is a cross-platform coffee brewing calculator designed to help users, from newcomers to enthusiasts, master coffee-to-water ratios and precise measurement conversions. Built with modern web and mobile technologies, the project demonstrates advanced skills in both native iOS development and modern JavaScript/TypeScript web engineering.
+
+---
+
+## Platforms
+
+- **Web Application:**  
+  [mycoffeecalc.com](https://mycoffeecalc.com)  
+  *(Full-featured coffee calculator built with React, TypeScript, and modern web tooling)*
+- **iOS App:**  
+  [Download on the App Store](https://apps.apple.com/us/app/my-coffeecalc/id6747992533?itscg=30200&itsct=apps_box_badge&mttnsubad=6747992533)
+  
+  <a href="https://apps.apple.com/us/app/my-coffeecalc/id6747992533?itscg=30200&itsct=apps_box_badge&mttnsubad=6747992533" style="display: inline-block;">
+      <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1753056000" alt="Download on the App Store" style="width: 145px; height: 48px;" />
+  </a>
+
+---
 
 ## Problem Statement
-Coffee brewing newcomers struggle with understanding coffee-to-water ratios and translating abstract ratios into precise brewing measurements. This app solves both challenges by providing curated, community-accepted brewing ratios with smart defaults, and a streamlined calculator that converts ratios into exact coffee and water amounts. Educational articles help users understand the science behind optimal brewing ratios.
+
+Coffee brewing newcomers often struggle to understand coffee-to-water ratios and how to translate those into actionable brewing measurements. My CoffeeCalc solves this by providing curated, comprehensible ratio guides and instant conversions, making specialty coffee accessible to everyone.
+
+---
 
 ## Technical Architecture
 
-The My CoffeeCalc iOS application is built entirely in **Swift**, leveraging Apple's modern **SwiftUI** framework for declarative UI development. The app demonstrates proficiency with contemporary iOS development patterns and Apple's latest tools and frameworks.
+### Web Application (React/TypeScript)
 
-### Key Technologies & Frameworks
+- **Tech Stack:** React, TypeScript, Vite, Styled Components, modern JS libraries
+- **Features:**
+  - Responsive UI for desktop and mobile browsers
+  - Real-time ratio calculations and dynamic guides
+  - State management with React Hooks
+  - Strongly typed logic for reliability and maintainability
+  - Production deployment at [mycoffeecalc.com](https://mycoffeecalc.com)
 
-- **SwiftUI** - Primary UI framework utilizing declarative syntax
-- **Swift Markdown UI** - Third-party package integration for rendering Markdown content in iOS-optimized format ([gonzalezreal/swift-markdown-ui](https://github.com/gonzalezreal/swift-markdown-ui))
-- **WidgetKit** - watchOS complications implementation
-- **TestFlight** - Beta distribution and testing platform
+### iOS & watchOS Applications (Swift/SwiftUI)
+
+- **Tech Stack:** Swift, SwiftUI, WidgetKit, Swift Markdown UI
+- **Features:**
+  - Native UI for iPhone, iPad, and Apple Watch
+  - Watch Face complication via WidgetKit
+  - Advanced state management (`@Observable`, `@State`, `@Environment`, `@AppStorage`)
+  - Custom navigation, animations, and sheet presentations
+  - Clean separation of concerns and extensible architecture
+  - Automated CI/CD with Xcode Cloud, TestFlight beta distribution
+
+---
 
 ## Multi-Platform Implementation
 
-The project showcases cross-platform development skills with three distinct targets:
-- **iOS App** - Primary mobile application
-- **watchOS App** - Companion Apple Watch application
-- **watchOS Complication** - Watch Face complication using WidgetKit
+This project showcases modern cross-platform engineering:
+- **Web:** [mycoffeecalc.com](https://mycoffeecalc.com) (React/TS)
+- **iOS App:** [App Store](https://apps.apple.com/us/app/my-coffeecalc/id6747992533)
+- **watchOS App & Complication:** Native Apple Watch support
 
-## Swift & SwiftUI Features Implemented
+---
 
-The codebase demonstrates advanced Swift and SwiftUI concepts including:
+## Engineering Highlights
 
-**Core Swift Patterns:**
-- Structs, enums, and classes for proper data modeling
-- Extensions for code organization and reusability
-- JSONDecoder() for structured data parsing
+### Swift & SwiftUI
+- Structs, enums, and classes for robust data modeling
+- Extensions for clean code organization
+- JSON decoding for flexible data inputs
+- Modern SwiftUI state and dependency management
+- Adaptive layouts and navigation
 
-**SwiftUI State Management:**
-- `@Observable` for modern data observation
-- `@State` and `@FocusState` for local view state
-- `@Environment` for dependency injection
-- `@AppStorage` for persistent user preferences
+### React & TypeScript
+- Strongly typed components and business logic
+- Responsive design for all devices
+- Modern hooks for state, effects, and context
+- Scalable and maintainable architecture
 
-**Advanced UI Components:**
-- `NavigationSplitView` for adaptive navigation
-- `TabView` for organized content structure
-- `@ViewBuilder` for flexible view composition
-- Custom animations and sheet presentations
+### CI/CD & Quality Assurance
+- **iOS:** Automated build/test (Xcode Cloud), multi-stage TestFlight testing
+- **Web:** Automated deployment pipeline, staging and live environments
 
-## Development Workflow & CI/CD
+---
 
-**Continuous Integration:**
-- **Xcode Cloud** integration with GitHub repository
-- Automated build and test processes
-- Streamlined deployment pipeline
+## About the Author
 
-**Quality Assurance:**
-- **TestFlight** distribution for both internal dev testing and external beta user feedback
-- Multi-stage testing process ensuring quality releases
-
-## Architecture Highlights
-
-The application demonstrates modern iOS development best practices through clean separation of concerns, efficient state management, and thoughtful integration of both first-party and third-party frameworks. The multi-platform approach showcases understanding of Apple's ecosystem and the ability to create cohesive experiences across devices.
+**Alex Swetz**  
+Experienced in modern full-stack, mobile, and cloud engineering.  
+For more projects and contact info: [ajswetz.com](https://ajswetz.com)
