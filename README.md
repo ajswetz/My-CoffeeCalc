@@ -35,7 +35,7 @@ Coffee brewing newcomers often struggle to understand coffee-to-water ratios and
 
 ### Web Application (React/TypeScript)
 
-- **Tech Stack:** React, TypeScript, Vite, Styled Components, modern JS libraries
+- **Tech Stack:** React, TypeScript, Next.js, Styled Components, modern JS libraries
 - **Features:**
   - Responsive UI for desktop and mobile browsers
   - Real-time ratio calculations and dynamic guides
