@@ -33,7 +33,7 @@ Coffee brewing newcomers often struggle to understand coffee-to-water ratios and
 
 ## Technical Architecture
 
-### Web Application (React/TypeScript)
+### Web Application (React/TypeScript/Next.js)
 
 - **Tech Stack:** React, TypeScript, Next.js, Styled Components, modern JS libraries
 - **Features:**
@@ -74,15 +74,16 @@ This project showcases modern cross-platform engineering:
 - Modern SwiftUI state and dependency management
 - Adaptive layouts and navigation
 
-### React & TypeScript
+### React & TypeScript & Next.js
 - Strongly typed components and business logic
 - Responsive design for all devices
 - Modern hooks for state, effects, and context
 - Scalable and maintainable architecture
+- Leverages Next.js with App Router and dynamic metadata
 
 ### CI/CD & Quality Assurance
 - **iOS:** Automated build/test (Xcode Cloud), multi-stage TestFlight testing
-- **Web:** Automated deployment pipeline, staging and live environments
+- **Web:** Automated deployment pipeline (Vercel), staging and live environments
 
 ---
 
@@ -90,4 +91,4 @@ This project showcases modern cross-platform engineering:
 
 **Alex Swetz**  
 Experienced in modern full-stack, mobile, and cloud engineering.  
-For more projects and contact info: [ajswetz.com](https://ajswetz.com)
+Contact info: [alex@mycoffeecalc.com](mailto:alex@mycoffeecalc.com)
